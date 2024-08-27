@@ -1,12 +1,12 @@
 function EsAnioBiciesto(numero)
 {
-    if(numero%4===0 && numero%100===0)
+    if(numero%4===0)
     {
-        return "No es Anio Biciesto";
+        return "Es Anio Biciesto";
     }
-    else if(numero%4===0)
+    else
     {
-       return "Es Anio Biciesto";
+       return "No es Anio Biciesto";
     }
     
 }
