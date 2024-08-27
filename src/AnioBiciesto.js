@@ -1,6 +1,6 @@
 function EsAnioBiciesto()
 {
-
+    
 }
 
-default export EsAnioBiciesto;
+export default EsAnioBiciesto;
