@@ -1,10 +1,17 @@
 function EsAnioBiciesto(numero)
 {
-    if(numero%400===0)
+    if(numero%100===0)
     {
-        return "Es Anio Biciesto";
+        if(numero%400===0)
+        {
+            return "Es Anio Biciesto";
+        }
+        else
+        {
+            return "No es Anio Biciesto";
+        }
     }
-    return "No es Anio Biciesto";
+    
 }
 
 export default EsAnioBiciesto;
